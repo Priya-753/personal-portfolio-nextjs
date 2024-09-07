@@ -19,8 +19,8 @@ export default function Home() {
         <Hero />
         <About />
         <Education />
-        <Skills />
         <Projects />
+        <Skills />
 
       </AnimatePresence>
 

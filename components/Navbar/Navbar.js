@@ -9,12 +9,12 @@ const Navbar = () => {
         setNav(!nav)
     }
     return (
-        <div className='fixed w-full shadow-xl h-20 z-[9999] top-0 left-0 bg-blue-500'>
+        <div className='fixed w-full shadow-xl h-20 z-[9999] top-0 left-0 bg-[#040617]'>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <div>
                     <ul>
                         <Link href='/'>
-                            <li className='ml-10 font-extrabold text-1xl  uppercase text-sm font-mono border-b  bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Priya</li>
+                            <li className='ml-10 font-extrabold text-1xl  uppercase text-sm text-yellow-300 font-mono border-b  bg-clip-text bg-gradient-to-r from-yellow-300 to-yellow-300'>Priyadarshini Tamilselvan</li>
                         </Link>
 
                     </ul>
@@ -23,26 +23,16 @@ const Navbar = () => {
                 <div>
                     <ul className='hidden md:flex'>
                         <Link href='/'>
-                            <li className='ml-10 uppercase text-sm hover:border-b'>Home</li>
+                            <li className='ml-10 uppercase text-sm text-white hover:border-b'>Home</li>
                         </Link>
                         <Link href='/#about'>
-                            <li className='ml-10 uppercase text-sm hover:border-b'>About</li>
+                            <li className='ml-10 uppercase text-sm text-white hover:border-b'>About</li>
                         </Link>
                         <Link href='/#skills'>
-                            <li className='ml-10 uppercase text-sm hover:border-b'>Skills</li>
+                            <li className='ml-10 uppercase text-sm text-white hover:border-b'>Skills</li>
                         </Link>
                         <Link href='/#projects'>
-                            <li className='ml-10 uppercase text-sm hover:border-b'>Projects</li>
-                        </Link>
-
-                        <Link href='/Resume.pdf'
-                            target={"_blank"}
-                            rel={"noreferrer"}
-                        >
-                            <li className='ml-10 uppercase text-sm hover:border-b'>Resume</li>
-                        </Link>
-                        <Link href='/#contact'>
-                            <li className='ml-10 uppercase text-sm hover:border-b'>Contact</li>
+                            <li className='ml-10 uppercase text-sm text-white hover:border-b'>Projects</li>
                         </Link>
 
                     </ul>

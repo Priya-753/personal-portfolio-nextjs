@@ -2,8 +2,6 @@ import React from 'react'
 import Avatar from '@mui/material/Avatar';
 import { motion } from 'framer-motion';
 
-
-
 const About = () => {
     return (
 
@@ -17,10 +15,9 @@ const About = () => {
                         whileInView={{ x: [-250, 0], opacity: 1 }}
                         transition={{ duration: 1 }}
                     >
-                        <p className='uppercase text-xl tracking-widest font-bold-200 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>
-                            About
-                        </p>
-                        <h2 className='py-4'>Who I Am</h2>
+                        <h2 className='tracking-widest font-bold-200 text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-400'>
+                            ABOUT
+                        </h2>
                     </motion.div>
                     <motion.div
                         initial={{ x: 0, opacity: 0 }}
@@ -28,7 +25,7 @@ const About = () => {
                         transition={{ duration: 1 }}
                     >
                         <p className='py-2 text-gray-600'>
-                        Hi there! I'm Priya, a full-stack developer with a passion for turning complex problems into sleek, user-friendly solutions. With a strong command of NextJS, React, Redux, and Android Development, plus a solid foundation in Python, I've spent over five years honing my craft. Whether it's building intuitive front-end interfaces or diving deep into back-end logic, I'm all about creating tech that's not only functional but also delightful to use.
+                        Hi there! I'm Priyadarshini Tamilselvan, but you can call me Priya. I am a full-stack developer with a passion for turning complex problems into sleek, user-friendly solutions. With a strong command of NextJS, React, Redux, and Android Development, plus a solid foundation in Python, I've spent over five years honing my craft. Whether it's building intuitive front-end interfaces or diving deep into back-end logic, I'm all about creating tech that's not only functional but also delightful to use.
                         </p>
                         <p className='py-2 text-gray-600'>
                         My journey began with a Bachelor's in Computer Science, but let's be honest, my love for all things tech started way before that. I was that kid who tried to "fix" the family computer and ended up learning a whole lot about what not to do. Fast forward to now, I've gained over four years of experience as a full-stack developer, with a knack for React, Redux, and Android Development, along with a sprinkle of Python.
@@ -47,7 +44,7 @@ const About = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <button className='text-sm p-3 my-6 hover:scale-105 ease-in duration-300'>
+                            <button className='text-sm p-3 my-6 hover:scale-105 ease-in duration-300 from-yellow-300 via-yellow-300 to-yellow-300 text-slate-600'>
                                 Download Resume
                             </button>
                         </a>
@@ -60,7 +57,7 @@ const About = () => {
                     initial={{ x: 0, opacity: 0 }}
                     whileInView={{ x: [250, 0], opacity: 1 }}
                     transition={{ duration: 1 }}
-                    className='w-full h-auto m-auto  flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+                    className='w-full h-auto m-auto items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
 
                     <Avatar sx={{ width: 260, height: 260 }}
                         alt="Priya" src="/assets/PriyaPhoto.png" />
